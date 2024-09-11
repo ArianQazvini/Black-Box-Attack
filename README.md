@@ -1,13 +1,13 @@
 # Blackbox Attack
 
-This repository contains an implementation of a blackbox adversarial attack using the approach described in the paper "[Transferable Adversarial Attack based on Integrated Gradients](https://arxiv.org/abs/2205.13152)" and visualizes clean and adversarial images using `captum` for explainability.
+This repository contains an implementation of a blackbox adversarial attack using the approach described in the paper "[*Transferable Adversarial Attack based on Integrated Gradients*](https://arxiv.org/abs/2205.13152)" and visualizes clean and adversarial images using `captum` for explainability.
 
 ## Files
 
 - **`blackbox_attack.py`**: Implements the blackbox adversarial attack where:
   - **Surrogate Model**: ResNet50.
   - **Victim Model**: ResNet18 trained on the RIVAL10 dataset. 
-    - Reference for RIVAL10: "[A Comprehensive Study of Image Classification Model Sensitivity to Foregrounds, Backgrounds, and Visual Attributes](https://arxiv.org/abs/2201.10766)".
+    - Reference for RIVAL10: "[*A Comprehensive Study of Image Classification Model Sensitivity to Foregrounds, Backgrounds, and Visual Attributes*](https://arxiv.org/abs/2201.10766)".
   - The victim model achieved an accuracy of **93%** on clean images.
   - The adversarial attack achieved an attack success rate (ASR) of **8%**.
 
