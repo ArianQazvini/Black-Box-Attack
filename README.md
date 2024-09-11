@@ -10,6 +10,7 @@ This repository contains an implementation of a blackbox adversarial attack usin
     - Reference for RIVAL10: "[*A Comprehensive Study of Image Classification Model Sensitivity to Foregrounds, Backgrounds, and Visual Attributes*](https://arxiv.org/abs/2201.10766)".
   - The victim model achieved an accuracy of **93%** on clean images.
   - The adversarial attack achieved an attack success rate (ASR) of **8%**.
+  - **Note**: 1000 samples from the RIVAL10 dataset were selected for the blackbox attack.
 
 - **`captum.ipynb`**: Jupyter Notebook demonstrating the visualization of a sample clean image and its adversarial counterpart using two visualization techniques from the `captum` library:
   - **Guided GradCAM**.
