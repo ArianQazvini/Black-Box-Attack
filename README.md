@@ -23,7 +23,6 @@ The victim model was trained on the **RIVAL10** dataset, which is a challenging 
 ## Dependencies
 
 This project requires the following libraries:
-- Python 3.x
 - PyTorch
 - Captum (for model explainability)
 - NumPy
