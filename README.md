@@ -1,6 +1,6 @@
 # Black-box Attack
 
-This repository contains an implementation of a blackbox adversarial attack using the approach described in the paper "[*Transferable Adversarial Attack based on Integrated Gradients*](https://arxiv.org/abs/2205.13152)" and visualizes clean and adversarial images using `captum` for explainability.
+This repository contains an implementation of a black-box adversarial attack using the approach described in the paper "[*Transferable Adversarial Attack based on Integrated Gradients*](https://arxiv.org/abs/2205.13152)" and visualizes clean and adversarial images using `captum` for explainability.
 
 ## Files
 
