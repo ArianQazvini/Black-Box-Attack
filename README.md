@@ -13,7 +13,7 @@ This repository contains an implementation of a black-box adversarial attack usi
   - **Note**: 1000 samples from the RIVAL10 dataset were selected for the blackbox attack.
 
 - **`captum.ipynb`**: Jupyter Notebook demonstrating the visualization of a sample clean image and its adversarial counterpart using two visualization techniques from the `captum` library:
-  - **Guided GradCAM**.
+  - **Guided Grad-CAM**.
   - **Guided Backpropagation**.
 
 ## Dataset
